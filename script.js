@@ -28,7 +28,7 @@ function initArray() {
   variationsCount = operations.length ** (arrayNumbers.length - 1);
 }
 
-async function search() {
+function search() {
   if (!arrayInput.value || !valueInput) return;
 
   resultDiv.innerHTML = "Мне не удалось найти комбинацию";
